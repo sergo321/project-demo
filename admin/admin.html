@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>admin</title>
+    <link rel="stylesheet" href="./admin.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="../index.html">index</a></li>
+        <li><a href="./admin.html">admin</a></li>
+        <li><a href="../kooker/kooker.html">kooker</a></li>
+        <li><a href="../sallery/sallerey.html">sallary</a></li>
+        <li><a href="../waiter/waiter.html">waiter</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="adddish">
+        meniushi chamateba
+        <input type="text" placeholder="input name" id="inputname" />
+        <input type="number" placeholder="input price" id="inputprice" />
+        <input type="file" placeholder="add photo" id="inputimg" />
+        <button id="submitbtn">add</button>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./admin.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+          https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="../sharedfunction.js"></script>
+
+    <script src="../firebase.js"></script>
+  </body>
+</html>
